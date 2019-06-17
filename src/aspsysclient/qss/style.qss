@@ -1,0 +1,108 @@
+QComboBox::drop-down
+{
+    border-image:url(:/myimages/images/comboxbtn.png);
+    width:30px;
+}
+
+QComboBox QAbstractItemView::item {
+    height: 25px;
+    border-image:url(:/myimages/images/ledit.png);
+}
+
+QDateEdit::up-button, QTimeEdit::up-button, QDateTimeEdit::up-button
+{
+    border-image:url(:/myimages/images/pbtnUP.png);
+    width:30px;
+}
+
+QDateEdit::down-button, QTimeEdit::down-button, QDateTimeEdit::down-button
+{
+    border-image:url(:/myimages/images/pbtnDown.png);
+    width:30px;
+}
+
+/****************************************************************
+CameraPosSet
+****************************************************************/
+QPushButton#oneBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint1.png);
+}
+QPushButton[CurrCameraPos="1"]#oneBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint1Pressed.png);
+}
+QPushButton#twoBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint2.png);
+}
+QPushButton[CurrCameraPos="2"]#twoBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint2Pressed.png);
+}
+QPushButton#threeBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint3.png);
+}
+QPushButton[CurrCameraPos="3"]#threeBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint3Pressed.png);
+}
+QPushButton#fourBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint4.png);
+}
+QPushButton[CurrCameraPos="4"]#fourBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint4Pressed.png);
+}
+QPushButton#fiveBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint5.png);
+}
+QPushButton[CurrCameraPos="5"]#fiveBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint5Pressed.png);
+}
+QPushButton#sixBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint6.png);
+}
+QPushButton[CurrCameraPos="6"]#sixBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint6Pressed.png);
+}
+QPushButton#sevenBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint7.png);
+}
+QPushButton[CurrCameraPos="7"]#sevenBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint7Pressed.png);
+}
+QPushButton#eightBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint8.png);
+}
+QPushButton[CurrCameraPos="8"]#eightBtn
+{
+	border-image:url(:/myimages/images/pbtnpoint8Pressed.png);
+}
+
+QPushButton#viedoSetBtn
+{
+	border-image: url(:/myimages/images/pbtnSet.png);
+}
+QPushButton#viedoSetBtn:pressed
+{
+	border-image: url(:/myimages/images/pbtnSetPressed.png);
+}
+
+QPushButton#videoGetBtn
+{
+	border-image: url(:/myimages/images/pbtnGet.png);
+}
+QPushButton#videoGetBtn:pressed
+{
+	border-image: url(:/myimages/images/pbtnGetPressed.png);
+}
